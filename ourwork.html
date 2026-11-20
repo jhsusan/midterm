@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>ARaynorDesign Template</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+    <style>
+    
+    .a1
+    {
+        color:black;
+        background-color: yellow;   
+        font-size: 30px;
+        text-align: center;
+        font-weight: 900;
+        font-family: "標楷體";
+    }
+    </style>
+
+   <script>
+    
+    function show1()
+    {
+       document.getElementById("t1").innerHTML = "黃彩虹"
+       document.getElementById("t1").className = "name"
+
+    }
+
+     function show2()
+    {
+       document.getElementById("t1").innerHTML = "115570060"
+       document.getElementById("t1").className = "no"
+
+    }
+     function show3()
+    {
+       document.getElementById("t1").innerHTML = " "
+       document.getElementById("t1").className = "del"
+
+    }
+
+</script>
+
+<style>
+    
+    .name
+    {
+        color:red;
+        background-color:yellow ;
+        font-size: 50px;
+        font-family: "標楷體";
+        font-weight: 900;
+        text-align: center;
+        padding: 10px;
+    }
+
+     .no
+    {
+        color: purple;
+        background-color: pink  ;
+        font-size: 50px;
+        font-family: "標楷體";
+        font-weight: 900;
+        text-align: center;
+        padding: 10px;
+    }
+
+     .del
+    {
+        color: purple;
+        background-color: pink  ;
+        font-size: 50px;
+        font-family: "標楷體";
+        font-weight: 900;
+        text-align: center;
+        padding: 10px;
+    }
+
+</style>
+
+
+</head>
+
+<body>
+  <div id="main">
+    <div id="site_content">  	
+	  <div id="menubar">
+        <ul class="lavaLampWithImage" id="lava_menu">
+           <li class="current"><a href="index.html">首頁</a></li>
+          <li><a href="ourwork.html">第1提</a></li>
+          <li><a href="testimonials.html">第2提</a></li>
+          <li><a href="projects.html">第3提</a></li>
+          <li><a href="contact.html">第4提</a></li>
+        </ul>
+	  </div><!--close menubar-->
+      <div id="header">  
+         <h1>115570060 黃彩虹</h1>	
+	    <h2>期中考</h2>
+      </div><!--close header-->	
+	  <div id="banner_image">
+	    <div id="slider-wrapper">        
+          <div id="slider" class="nivoSlider">
+            <img src="images/slide1.jpg" alt="" />
+            <img src="images/slide2.jpg" alt="" />
+            <img src="images/slide3.jpg" alt="" />
+		  </div><!--close slider-->
+		</div><!--close slider-wrapper-->
+	  </div><!--close banner_image-->			
+      <div id="content">
+        <div class="content_item">
+        
+          <table border="1">
+            <tr>
+                <td ><button class="a1" onclick="show1()">姓名</button></td>
+                <td ><button class="a1" onclick="show2()" >數學</button></td>
+                <td><button  class="a1" onclick="show3()" >刪除</button></td>
+            </tr>
+            
+        </table>
+
+        <br>
+
+        <label id="t1"></label>
+
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper, massa eu iaculis imperdiet, turpis nunc aliquam augue, eget condimentum lectus velit vitae urna. Curabitur eu feugiat erat. Nam et arcu sit amet magna facilisis accumsan vel nec mauris. Vivamus interdum adipiscing molestie. Vestibulum sollicitudin massa eget turpis cursus eget ullamcorper odio pharetra. Sed dictum lacus sed erat molestie id aliquet enim vestibulum. Nullam malesuada, massa feugiat feugiat blandit, quam metus tincidunt risus, in condimentum nisi eros a metus. Cras sapien mi, porttitor eu semper sit amet, cursus eget lacus. Aliquam sed dolor mauris, id blandit ligula. Ut a purus justo. Donec metus dui, sodales eu placerat in, placerat ut massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          <h3>Our services include:</h3>
+    	    <ul>
+   			  <li>Service 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    	  	  <li>Service 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+   			  <li>Service 3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+   			  <li>Service 4 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+   		    </ul>
+		</div><!--close content_item-->
+	      
+		  <div class="sidebar_container">  		  
+		    <div class="sidebar">
+              <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+			    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+            </div><!--close sidebar-->     		
+		    <div class="sidebar">
+              <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+		  	    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+            </div><!--close sidebar-->  
+		    <div class="sidebar">
+              <div class="sidebar_item">
+                <h2>Latest Blog</h2>
+			    <h4>April 2012</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus tempor enim.</p>
+		          <a href="#">Read more</a>
+              </div><!--close sidebar_item--> 
+            </div><!--close sidebar-->  
+           </div><!--close sidebar_container-->	
+           <br style="clear:both;" />
+        </div><!--close content-->	
+    </div><!--close site_content-->	
+    <div id="footer">  
+       <p>&copy;版權所有 2023 by 115570060 黃彩虹</p>
+    </div><!--close footer-->
+  </div><!--close main-->	
+</body>
+</html>
